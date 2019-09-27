@@ -1,0 +1,17 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+.header{
+    width: 100%;
+    margin: 0 auto;
+    background-color: cadetblue;
+    position: fixed;
+    left:0;
+    top: 0;
+}

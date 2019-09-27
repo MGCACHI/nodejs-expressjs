@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/public/stylesheets/style.css')
+  body
+    header.header
+      if(session.User)
+        h4(style="margin-left:60px;")
+          a(href='/login/logout/') Logout
+      else  
+        h4(style="margin-left:60px;")
+          a(href='/login/') login
+    div
+      block content

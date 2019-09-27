@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  form(action="/Login/",method="Post",style="display: table-caption")
+    input(type="text",name="Name",placeholder="Name")
+    input(type="password",name="Pass",placeholder="Password")
+    button(type="submit") submit

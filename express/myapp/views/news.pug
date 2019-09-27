@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  div.img
+    each item in array
+     img.img(style="margin-left:10px;" src="item", alt="img")
+  div.main
+    h1 #{test_sesion}
+    h4 #{product.id}
